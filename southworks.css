@@ -30,6 +30,11 @@ body #wrapper {
     padding: 0 48px;
 }
 
+/** Hide for Embed */ 
+#main #logo {
+    display: none;
+}
+
 /** Content **/
 #content img {
     max-width: 100% !important;
