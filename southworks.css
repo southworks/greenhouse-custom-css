@@ -19,19 +19,19 @@
 }
 
 body {
-    background-color: var(--full-page-background-color);
+    background-color: var(--application-background-color);
     font-family: "Poppins", 'sans-serif';
 }
 
 body #wrapper {
-    background-color: white;
+    background-color: var(--application-background-color);
     min-height: 100vh;
     max-width: 800px;
     padding: 0 48px;
 }
 
 /** Hide for Embed */ 
-#main #logo {
+#main #logo, #main h1 {
     display: none;
 }
 
